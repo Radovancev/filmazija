@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Filmazija ICToteka | for free!</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="author" content="Nikola Radovancev" />
+    <link rel="icon" href="pics/iconmovie.ico" />
+    <meta name="description" content="Watch free movies online with subtitle" />
+    <meta name="keywords" content="movie,watch,free, videos" />
+    <script>
+        window.addEventListener("load", function() {
+            var loadingScreen = document.getElementById("loading");
+            document.body.removeChild(loadingScreen);
+        });
+    </script>
+</head>
+
+<body>
+    <section id="loading"> <img src="images/loading.gif" alt="loading"> </section>
+    <header class="clearfix">
+        <a href="index.html" title="Click for Home Page of Movie">
+            <div id="logo"></div>
+        </a>
+        <nav id="lista">
+            <ul>
+                <li><a href="index.html">Home</a>
+                    </li>
+                        <li class="izrod">Gallery
+                            <ul class="dropdown">
+                                <li><a href="oldschool.html">Old School</a>
+                                    </li>
+                                        <li><a href="newage.html">New age</a>
+                                            </li>
+                            </ul>
+                            </li>
+                                <li><a href="contact.html">Contact</a>
+                                    </li>
+                                        <li> <a href="about.html">About</a>
+                                            </li>
+            </ul>
+        </nav>
+        <a href="index.html"><img id="filmazijalogo" src="pics/filmazija.png" alt="filmazijalogo" /></a>
+    </header>
+    <div class="container">
+         
+        <section id="mid" class="clearfix">
+            <div id="radovancev">
+                <div id="aboutpics"> <img class="ti" src="pics/NikolaRadovancev.jpg" alt="NikolaRadovancev" /> <img class="to" src="pics/NikolaRadovancev2.png" alt="NikolaRadovancev2" />
+                    </div>
+                        <div id="aboutme">
+                            <h1>About me:</h1>
+                            <p>Hello, my name is Nikola Radovancev and I'm from Pancevo.
+                                </p>
+                                    <h2>School:</h2>
+                                    <p>I finished Secondary School of Electrical Engineering "Nikola Tesla" in Pancevo.During school I learned a lot about programming and I continued my studies at Faculty of Transport and Traffic Engineering, but after one year i didn't find myself there and I started to prepare my exam for this school. And here I'm, at "Visoka ICT".
+                                        </p>
+                                            <h2>Contact:</h2>
+                                            <p>For any question, any help or something, about "how to play some movie" or "how to make a website/page", you can find me on facebook or just click <a class="clickonme" href="contact.html">here</a>.
+                                                </div>
+                                                    </div>
+        </section>
+        </div>
+            <div id="toggle">
+                <form action="#" method="post" name="formaankete" id="formaankete">
+                    <h2 class="formah2">Ocenite sajt...</h2>
+                    <input type="radio" class="radio" name="anketa" value="1" />&nbsp;Dobar
+                    <br/>
+                    <input type="radio" class="radio" name="anketa" value="2" />&nbsp;Superkul
+                    <br/>
+                    <input type="radio" class="radio" name="anketa" value="3" />&nbsp;Najbolji
+                    <br/>
+                    <input type="button" name="submit" id="submit" value="Send" onclick="glasao(); move();"/> </form>
+                </div>
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                 </div>
+                   
+                    <footer class="clearfix">
+                        <table>
+                            <tr>
+                                <td><a href="index.html">Home</a>
+                                    </td>
+                                        <td><a href="about.html">About me</a>
+                                            </td>
+                                                </tr>
+                                                    <tr>
+                                                        <td><a href="sitemap.xml" target="_blank">Sitemap</a>
+                                                            </td>
+                                                                <td><a href="contact.html">Contact</a>
+                                                                    </td>
+                                                                        </tr>
+                                                                            <tr>
+                                                                                <td><a href="dokumentacija.pdf" target="_blank">Documentation</a>
+                                                                                    </td>
+                                                                                        <td>Location : Serbia
+                                                                                            </td>
+                                                                                                </tr>
+                        </table>
+                        <div class="notice">
+                            <br/>
+                            <h2 class="smanji">DMCA Notice <br/> 
+
+                            Filmazija ICToteka webpage by: Nikola Radovančev, DOES NOT! stream videos or host content of any kind, the videos you watch are hosted and shown from sites such as YouTube, Tudou, Megavideo, etc. Any videos shown on 3rd party websites have passed their own stringent internal vetting procedures and as such are assumed as fully authorized for publication by the content owners. 
+
+                            </h2 class="smanji"></div>
+
+                            <div class="copy icons"> 
+
+                            <h3 class="smanji"> Free movies webpage <br/> 
+
+                            Copyright © Nikola Radovančev All Rights Reserved <br/> 
+
+                            Disclaimer: This site does not store any files on its server. <br/> 
+
+                            All contents are provided by non-affiliated third partiesp 
+
+                            </h3 class="smanji"> 
+
+                            <a href="https://www.facebook.com/influxbog" target="_blank">
+                            <img src="pics/moviefacebook.png" alt="facebookicon"/> </a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox.com" target="_blank">
+                            <img src="pics/movieg.png" alt="googleicon"/> </a>
+                            <a href="https://www.instagram.com/nikolaaa1912/" target="_blank">
+                            <img src="pics/movieinsta.png" alt="instagramicon"/> </a>
+                            <a href="https://rs.linkedin.com/in/nikola-radovancev-b83516114" target="_blank">
+                            <img src="pics/movielin.png" alt="linkedinicon"/> </a>
+                            <a href="rss.xml" target="_blank">
+                            <img src="pics/movierss.png" alt="rss"/> </a> </div>
+                            </footer> 
+
+                            <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+                                
+                            </script> 
+
+                            <script src="ddl.js"></script> 
+                            <script src="javas4.js"></script> 
+                            </body>
+                    </html>
